@@ -1,6 +1,6 @@
 {
-  "author": "Zach Carter <zach@carter.name> (http://zaa.ch)",
-  "name": "jsonlint",
+  "author": "Marcus Wittig",
+  "name": "jsonchecker",
   "description": "Validate JSON",
   "keywords": [
     "json",
@@ -8,14 +8,14 @@
     "lint",
     "jsonlint"
   ],
-  "version": "1.6.3",
+  "version": "0.0.0",
   "preferGlobal": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/zaach/jsonlint.git"
+    "url": "git://github.com/mwittig/jsonlint.git"
   },
   "bugs": {
-    "url": "http://github.com/zaach/jsonlint/issues"
+    "url": "http://github.com/mwittig/jsonlint/issues"
   },
   "main": "lib/jsonlint.js",
   "bin": {
@@ -25,7 +25,7 @@
     "node": ">= 0.6"
   },
   "dependencies": {
-    "nomnom": "^1.5.x",
+    "commander": "^2.19.0",
     "JSV": "^4.0.x"
   },
   "devDependencies": {
@@ -36,6 +36,6 @@
   "scripts": {
     "test": "node test/all-tests.js"
   },
-  "homepage": "http://zaach.github.com/jsonlint/",
+  "homepage": "http://mwittig.github.com/jsonlint/",
   "optionalDependencies": {}
 }

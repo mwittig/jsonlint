@@ -1,7 +1,10 @@
-JSON Lint
-=========
+JSON Checker aka. JSONlint
+================
 
 A pure [JavaScript version](http://zaach.github.com/jsonlint/) of the service provided at [jsonlint.com](http://jsonlint.com).
+This project is a fork of Zach Carter's [jsonlint](https://github.com/zaach/jsonlint) project. My main intent was to rewrite parts
+of the CLI to get rid of the deprecated nomnom package which had annoyed quite a few people of the developer community. 
+Besides this, I'll eventually fix some other issues not addressed by the jsonlint original release.
 
 ## Command line interface
 Install jsonlint with npm to use the command line interface:
@@ -55,7 +58,9 @@ It returns the parsed object or throws an `Error`.
 
 ## MIT License
 
-Copyright (C) 2012 Zachary Carter
+Copyright (C) 2019 Marcus Wittig for CLI changes and fixture
+
+Copyright (C) 2012 Zachary Carter for original work - https://github.com/zaach/jsonlint
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
