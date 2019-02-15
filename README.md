@@ -1,4 +1,4 @@
-JSON Checker aka. JSONlint
+yet-another-jsonlint
 ================
 
 A pure [JavaScript version](http://zaach.github.com/jsonlint/) of the service provided at [jsonlint.com](http://jsonlint.com).

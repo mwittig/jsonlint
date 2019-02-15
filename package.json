@@ -1,6 +1,6 @@
 {
   "author": "Marcus Wittig",
-  "name": "jsonchecker",
+  "name": "yet-another-jsonlint",
   "description": "Validate JSON",
   "keywords": [
     "json",
